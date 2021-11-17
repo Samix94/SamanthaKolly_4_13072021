@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -739,7 +739,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
+.img-responsive portfolio-thumb {
     margin-bottom: 24px;
 }
 
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1037,6 +1037,8 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        display: flex;
+        flex-direction: row;
         text-align: center;
     }
 }
