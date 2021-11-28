@@ -1,14 +1,4 @@
-/* jqBootstrapValidation
- * A plugin for automating validation on Twitter Bootstrap formatted forms.
- *
- * v1.3.6
- *
- * License: MIT <http://opensource.org/licenses/mit-license.php> - see LICENSE file
- *
- * http://ReactiveRaven.github.com/jqBootstrapValidation/
- */
-
-(function( $ ){
+/* Invalid character(s) '(function( $ ){
 
 	var createdElements = [];
 
@@ -876,13 +866,8 @@
 		return new RegExp("^" + inputstring + "$");
 	}
 
-  /**
-   * Thanks to Jason Bunting via StackOverflow.com
-   *
-   * http://stackoverflow.com/questions/359788/how-to-execute-a-javascript-function-when-i-have-its-name-as-a-string#answer-359910
-   * Short link: http://tinyurl.com/executeFunctionByName
-  **/
-  function executeFunctionByName(functionName, context /*, args*/) {
+  
+  function executeFunctionByName(functionName, context ) {
     var args = Array.prototype.slice.call(arguments).splice(2);
     var namespaces = functionName.split(".");
     var func = namespaces.pop();
@@ -909,4 +894,4 @@
     $(":input").not("[type=image],[type=submit]").jqBootstrapValidation.apply(this,arguments);
   };
 
-})( jQuery );
+})( jQuery );' at 11:0. Ignoring. */
