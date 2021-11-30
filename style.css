@@ -19,8 +19,8 @@ a:hover{
 }
 
 .img-responsive{
-    width: 389px;
-    height: 389px;
+    width: 100%;
+    height: 100%;
 }
 
 #page-loading-blocs-notifaction{
@@ -367,7 +367,7 @@ a:hover{
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -407,8 +407,7 @@ a:hover{
         margin: 10px auto 0;
     }
 }
-
-.nav > li > .dropdown a {
+ .nav > li > .dropdown a {
     background: none!important;
     display: block;
     padding: 14px 15px;
@@ -651,7 +650,7 @@ h4,
 h5,
 h6,
 label,
-.p;
+.p,
 .btn,
 a {
     font-family: "helvetica";
@@ -879,8 +878,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -890,8 +889,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
